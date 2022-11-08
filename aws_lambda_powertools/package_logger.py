@@ -4,6 +4,8 @@ from aws_lambda_powertools.logging.logger import set_package_logger
 from aws_lambda_powertools.shared.functions import powertools_debug_is_set
 
 
+
+
 def set_package_logger_handler(stream=None):
     """Sets up Lambda Powertools package logging.
 

@@ -45,6 +45,10 @@ jobs:
         run: make dev
       - name: Test with pytest
         run: make test
+      - name: echo coverage
+        shell: bash
+        run: |
+          cat ./coverage.xml
       - name: Analyze Test and/or Coverage Results
         uses: runforesight/foresight-test-kit-action@v1
         if: ${{ always() }}

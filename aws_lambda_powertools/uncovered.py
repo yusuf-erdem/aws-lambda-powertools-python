@@ -4,5 +4,6 @@ def f():
  def g():
    return "g"
 
+
  def uncovered():
     return "uncovered file"
